@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui" xmlns:f="http://java.sun.com/jsf/core">
+
+<h:head>
+
+</h:head>
+
+<h:body>
+
+    <h:form>
+        <p:panel id="panel" header="New User">
+
+            <p:messages id="msgs" />
+
+            <h:panelGrid columns="3" cellpadding="5">
+
+                <p:outputLabel for="name" value="Name:" />
+                <p:inputText id="name" value="#{editStudentsView.name}" required="true" label="name">
+                    <p:ajax update="name" event="keyup" />
+                </p:inputText>
+                <p:message for="name" id="msgname" display="icon" />
+
+                <p:outputLabel for="email" value="Email:" />
+                <p:inputText id="email" value="#{editStudentsView.email}" label="email" required="true">
+                    <f:validator validatorId="emailValidator" />
+                    <p:ajax update="email" event="keyup" />
+                </p:inputText>
+                <p:message for="email" id="msgemail" display="icon" />
+
+            </h:panelGrid>
+
+            <p:commandButton value="Save" update="panel" action="#{editStudentsView.save}" icon="pi pi-check" />
+        </p:panel>
+    </h:form>
+</h:body>
+</html>
