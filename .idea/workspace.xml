@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b270ffcf-f7d9-4327-8303-ee8a59e066ee" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aP9xaZcgKiy21ZEZsuRezfQfaH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java/User" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.24973544" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b270ffcf-f7d9-4327-8303-ee8a59e066ee" name="Default Changelist" comment="" />
+      <created>1586626608220</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586626608220</updated>
+      <workItem from="1586626611063" duration="4691000" />
+      <workItem from="1586638819328" duration="1194000" />
+      <workItem from="1586653596042" duration="2661000" />
+      <workItem from="1586656296879" duration="344000" />
+      <workItem from="1586703385222" duration="1214000" />
+      <workItem from="1586704713994" duration="3074000" />
+      <workItem from="1586715113582" duration="226000" />
+      <workItem from="1586715359304" duration="3887000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="251" y="99" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1586654557275">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="251" y="99" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1280.680@0.0.1280.680" timestamp="1586654557275" />
+    <state x="122" y="51" key="#com.intellij.ide.util.MemberChooser" timestamp="1586655387510">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="122" y="51" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1586655387510" />
+    <state x="357" y="257" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1586627372219">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="357" y="257" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1280.680@0.0.1280.680" timestamp="1586627372219" />
+    <state x="403" y="257" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1586627332870">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="403" y="257" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1280.680@0.0.1280.680" timestamp="1586627332870" />
+    <state x="0" y="274" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1586627650935">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="0" y="274" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1586627650935" />
+    <state x="52" y="99" key="FileChooserDialogImpl" timestamp="1586718219233">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="52" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1586718219233" />
+    <state x="306" y="0" width="927" height="680" key="SettingsEditor" timestamp="1586717969133">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="306" y="0" width="927" height="680" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1586717969133" />
+    <state x="157" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1586715364010">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="157" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1586715364010" />
+    <state x="91" y="50" key="new project wizard" timestamp="1586717302969">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="91" y="50" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1586717302969" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1586717237172">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1586717237172" />
+  </component>
+</project>
