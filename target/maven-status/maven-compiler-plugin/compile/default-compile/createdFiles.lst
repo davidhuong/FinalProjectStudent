@@ -1,0 +1,7 @@
+AllStudentsView.class
+validator\EmailValidator.class
+META-INF\sisu\javax.inject.Named
+service\StudentService.class
+validator\ProgramValidator.class
+entity\Student.class
+EditStudentsView.class

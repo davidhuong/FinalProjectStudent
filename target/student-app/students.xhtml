@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui" xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+<h:head>
+</h:head>
+
+<h:body>
+    <style type="text/css">
+        .logo {
+            width: 5%
+        }
+
+        .detail {
+            width: 95%;
+            padding-left: 25px;
+        }
+
+        .detail td {
+            font-size: 24px;
+        }
+    </style>
+
+
+    <h:form id="form">
+        <p:repeat value="#{allStudentsView.players}" var="student">
+            <h:panelGrid columns="2" style="width:100%" columnClasses="logo,detail">
+                <p:graphicImage library="images" name="student.jpg"/>
+
+                <p:outputPanel>
+                    <h:panelGrid columns="2" cellpadding="5">
+                        <h:outputText value="Name:"/>
+                        <h:outputText value="#{student.name}" style="font-weight: bold"/>
+                        <h:outputText value="Email:"/>
+                        <h:outputText value="#{student.email}" style="font-weight: bold"/>
+                    </h:panelGrid>
+                </p:outputPanel>
+                <p:commandButton value="Update student" action="#{allStudentsView.redirectToEditStudent}"
+                                 style="margin-right:20px;">
+                    <f:actionListener binding="#{editPlayerView.populateView(player.id)}" />
+                </p:commandButton>
+                <p:commandButton value="Delete student" action="#{allStudentsView.deleteStudent(student.id)}"
+                                 style="margin-right:20px;"/>
+            </h:panelGrid>
+            <hr/>
+        </p:repeat>
+        <p:commandButton value="Add Student" action="#{allStudentsView.redirectToEditStudent}" style="margin-right:20px;"/>
+    </h:form>
+
+</h:body>
+</html>
